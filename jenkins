@@ -1,0 +1,22 @@
+pipeline {   
+   any agent
+   
+       stages  {
+            stage('build up') {
+                steps {
+                      echo 'Im the ruler'
+                  }
+              }
+           stage('tester') {
+               steps {
+                  echo 'Im the king'
+                
+                }
+            } 
+         }
+     }    
+              
+           
+                 
+         
+       

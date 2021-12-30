@@ -1,0 +1,30 @@
+pipe line {
+    
+    agent any
+       stages {
+           stage('build')
+           steps {
+               echo 'Im the ruler'
+           }
+       }
+       stage('tester') {
+           steps {
+               echo'Im the king'
+           }
+       }
+       stage('deploy') {
+           steps {
+             echo 'IM the hunter'
+           }
+       }
+       stage('release')
+          steps{
+              echo 'Im the winner'
+       }
+               
+           }
+    }   
+     
+  }         
+       
+      

@@ -1,7 +1,6 @@
 pipeline {   
-   any agent
-   
-       stages  {
+   agent any
+        stages { 
             stage('build up') {
                 steps {
                       echo 'Im the ruler'
@@ -10,7 +9,6 @@ pipeline {
            stage('tester') {
                steps {
                   echo 'Im the king'
-                
                 }
             } 
          }

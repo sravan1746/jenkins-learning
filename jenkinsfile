@@ -17,7 +17,7 @@ pipe line {
              echo 'IM the hunter'
            }
        }
-       stage('release')
+       stage('release') {
           steps{
               echo 'Im the winner'
        }

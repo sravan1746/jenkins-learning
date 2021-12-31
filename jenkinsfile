@@ -5,23 +5,23 @@ pipe line {
              stage('build') {
                  steps {
                      echo 'Im the learner'
-                 }
-             }
+                    }
+                }
              stage('tester') {
                  steps {
                      echo 'Im the beignner'
-                 }
-             }
+                    }
+               }
              stage('deploy') {
                  steps {
                      echo 'Im the coder'
-                 }
-             }
+                  }
+              }
              stage('release') {
                  steps {
                      echo 'Im the devloper'
-                 }
-             }
+                  }
+              }
          }
 }
        

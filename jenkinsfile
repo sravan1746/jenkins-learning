@@ -1,7 +1,7 @@
 pipe line {
     
-    agent any
-       stages {
+       agent any
+   stages {
            stage('build')
            steps {
                echo 'Im the ruler'
@@ -20,10 +20,10 @@ pipe line {
        stage('release') {
           steps{
               echo 'Im the winner'
-       }
+        }
                
-         }
-     }  
- }
+           }
+      }
+  }
        
       
